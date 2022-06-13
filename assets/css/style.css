@@ -1,0 +1,27 @@
+.parent-wrapper {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+  }
+  .parent {
+    display: flex;
+    font-size: 0;
+    flex-wrap: wrap;
+    margin: 10px 0 0 10px;
+    border: 1em;
+  }
+  .child {
+    display: inline-block;
+    flex-grow: 1;
+    height: 100px;
+}
+
+img {
+    padding: 10%;
+    max-width: 90%;
+    height: auto;
+}
+
+.ongoingGame {
+  display: none;
+}
